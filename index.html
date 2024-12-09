@@ -1,1 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .profile-card {
+            background: #DAFAFA;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            padding: 20px;
+            width: 400px;
+            height: 500px;
+        }
+        .profile-card img {
+            width: 150px;
+            height: 160px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+        .profile-card .pro {
+            display: inline-block;
+            padding: 5px 10px;
+            background: #ddd;
+            border-radius: 20px;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        .profile-card h2 {
+            margin: 10px 0;
+            font-size: 20px;
+        }
+        .profile-card h3 {
+            color: #777;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .profile-card p {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .profile-card .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .profile-card .social-icons a {
+            color: #555;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .social-links {
+            margin-top: 1rem;
+        }
+        .social-links a {
+            margin: 0 0.5rem;
+            text-decoration: none;
+        }
+        .social-links img {
+            width: 30px;
+            height: 30px;
+        }
+        .skills {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .skill {
+            text-align: center;
+        }
+        .skill img {
+            width: 30px;
+            height: 30px;
+        }
+        .skill p {
+            margin-top: 0.5rem;
+            font-size: 1rem;
+            color: #333;
+        }
 
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="https://media.discordapp.net/attachments/1126828839423725678/1315784829186478230/7B23934F-6FBD-422F-A246-7CA96D68C446.jpg?ex=6758ab9d&is=67575a1d&hm=648f4abc32d0faefcd9c5414179f6be8490548bb68f8f3e5d1c644ea4f6805ad&=&format=webp&width=509&height=614" alt="Chocsiri">
+        <h2>Chocsiri Wisalanont</h2>
+        <h3>Student Software Enginearing</h3>
+        <p>
+            Hello, my name is Chocsiri Wisalanont.
+            I study at the University of Phayao.
+            I'm studying Software Engineering.
+        </p>
+        <h4>My skills</h4>
+        <div class="skills">
+            <div class="skill">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python">
+            </div>
+            <div class="skill">
+                <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java">
+            </div>
+            <div class="skill">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML">
+            </div>
+            <div class="skill">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS">
+            </div>
+            <div class="skill">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma">
+            </div>
+            <div class="skill">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg" alt="Vue">
+            </div>
+            <div class="skill">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="Tailwind CSS">
+            </div>
+        </div>
+        <h4>Contact Me</h4>
+        <div class="social-links">
+            <a href="https://www.facebook.com/share/1E2mTPf9KM/?mibextid=LQQJ4d" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/l_030_i?igsh=YnlqcXlpdDczMGw3" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+            </a>
+            <a href="https://github.com/chocsiri" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
